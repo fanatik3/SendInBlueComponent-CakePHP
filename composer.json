@@ -1,5 +1,5 @@
 {
-    "name": "fanatik3/SendinBlue",
+    "name": "fanatik3/sendin-blue",
     "description": "SendinBlue plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
