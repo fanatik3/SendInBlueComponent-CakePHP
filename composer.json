@@ -2,6 +2,7 @@
     "name": "fanatik3/sendin-blue",
     "description": "SendinBlue plugin for CakePHP",
     "type": "cakephp-plugin",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.5.9",
         "cakephp/cakephp": ">=3.3.2 <4.0.0",
