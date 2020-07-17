@@ -7,6 +7,7 @@ use Cake\Core\Configure;
 use SendinBlue\Client\Api\AccountApi;
 use SendinBlue\Client\Api\ContactsApi;
 use SendinBlue\Client\Configuration;
+use SendinBlue\Client\ApiException;
 use GuzzleHttp;
 
 /**
@@ -50,8 +51,8 @@ class SendInBlueComponent extends Component
     {
         try {
             $this->apiInstance->deleteContact($email);
-        } catch (Exception $e) {
-            echo 'Exception when calling ContactsApi->deleteContact: ', $e->getMessage(), PHP_EOL;
+        } catch (ApiException $e) {
+           
         }
     }
 
